@@ -1,0 +1,392 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41cb500cf0f58e74f9a52a8af931edde, type: 3}
+  m_Name: -tk2d
+  m_EditorClassIdentifier: 
+  version: 4
+  spriteAnimationIndex: []
+  fontIndex: []
+  spriteCollectionIndex:
+  - name: SmallSpriteCollection
+    spriteCollectionGUID: ae672cd83ae7aed4aac283a949eb8de7
+    spriteCollectionDataGUID: 25d130331a7f03e47af699b098a072f8
+    spriteNames:
+    - btn_regist
+    - btn_login
+    - btn_forgetpasswd
+    - btn_login1
+    - btn_regist1
+    - btn_entergame1
+    - continue_bet
+    - power_bg
+    - btn_cancel
+    - platform_total_point
+    - personal_center
+    - current_count
+    - Icon
+    - left_bg
+    - btn_sure
+    - countdown
+    - total_point
+    - chip50
+    - chip500
+    - chip100
+    - chip10
+    - black_bg
+    - history_bg
+    - tittl_regist
+    - tittle_login
+    - btn_entergame1text
+    spriteTextureGUIDs:
+    - f2c089d11ba19a04f9b0b8cb547b270f
+    - 3000b69423874174aa4816d57e78391e
+    - a61b587f98a36ee44941a38ee29f2633
+    - 5fe3fe4e6e3498349bcdb14b6b2a06f6
+    - cac6a55efd642154e9f895b80f7e19c3
+    - 253c6f68dbd36c9449452b1216a8ea2a
+    - 45305301fc0277d4bb68addaddb8f2aa
+    - 4e6248567b151ec47bc94a21d25b353b
+    - 1d407aa3d135361469a9156f401c4936
+    - bcba8fc413add58458d5fc2717f289e6
+    - fd468ff69a5c5fc4ba11a4936b86864c
+    - bfaa8d48db2684a42b9a181644505506
+    - a86090c92b8a0554dae01d621125dd9e
+    - cf8c268b7ce8be24b966f4da289e21e2
+    - bdaefb4d427376148ad62d3056f2794e
+    - 52b4ea1e46e77914ab6ef6029e8b8cd8
+    - 8918f87e0f1a1104b8bb448c5fd99913
+    - 5200c311c0c1ef94ba0d801330714eb8
+    - da2f6097b911dbc45b692aeed7768fcc
+    - aaeb605a607ffc442bce7efcbdb01f4c
+    - b5dc8a0f7c8717b41ab2373a61ee0318
+    - a8f7596b473febf46b0a9beba0364048
+    - 7ec738438c4598c46bf633120b7621cc
+    - 40c2b080b81960945a59e1a5c23eebca
+    - dc7ad15ece6389447b999f5b206e6286
+    - 5aa7bfa93deb04e4784c189d6b9c160f
+    spriteTextureTimeStamps:
+    - 1491527911.20637
+    - 1491527892.0433
+    - 1491450651.22322
+    - 1491527646.70836
+    - 1491527738.04166
+    - 1491698750.45732
+    - 1491530103.22
+    - 1456999492.83187
+    - 1491531291.30493
+    - 1491531375.61974
+    - 1491453013.33431
+    - 1491530331.99873
+    - 1491453025.39033
+    - 1491452536.70341
+    - 1491531101.56134
+    - 1491453471.13173
+    - 1491453064.3144
+    - 1491453659.29502
+    - 1491530689.88123
+    - 1491453679.92706
+    - 1491453609.22193
+    - 1456999492.45187
+    - 1492669400.21546
+    - 1491699050.18407
+    - 1491699025.33002
+    - 1491698829.36806
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: BigSpriteCollection
+    spriteCollectionGUID: 2c85f4518bfe33a498f1d69c90f728fe
+    spriteCollectionDataGUID: e1096556fee3a904ca08d93028c4dc92
+    spriteNames:
+    - main_bg
+    - 
+    - regist_content
+    - 
+    - progress_front
+    - progress_text
+    - progress_bg
+    spriteTextureGUIDs:
+    - c1a98d05d72f312439df8e3d6fc202e5
+    - 
+    - 233258f15be0ddd4c9870fed80114bf7
+    - 
+    - 2ea40cd20d4e3df44a065cd11e58c52a
+    - 8d1d74e3deb40f04483b843b7cf1f90f
+    - f19bf9af2e5eb624d8812999001bad0d
+    spriteTextureTimeStamps:
+    - 1491699403.21949
+    - 0
+    - 1491518110.81169
+    - 0
+    - 1491527564.69394
+    - 1491452117.7101
+    - 1491451378.78884
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: BetbgSpriteCollection
+    spriteCollectionGUID: 6b87fa8a8e13f79448a7cf2b514c0976
+    spriteCollectionDataGUID: ada5c66b6913bce4798568b44010486f
+    spriteNames:
+    - bet_bg
+    - more_function
+    - betrecord_font
+    - betrecord_icon
+    - advance_icon
+    - advance_font
+    - gameindrudaction_font
+    - gameindrudaction_icon
+    - morefunction_bg
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - bet_top
+    - down_arror
+    - winning_bg2
+    - more_history_bg
+    - winning_bg1
+    - historytitle_bg
+    spriteTextureGUIDs:
+    - b4b9be8676626084581bef8f3d0c48fb
+    - b8fc4ec4690df284092dc18a6bff806e
+    - b7c81b6715d5fce42bc055bb42a4e4f0
+    - be12d5bd41d0aea4a92b8a360bbaccbb
+    - 1da7d832c2956224b956238cf137b6c4
+    - 52b3655992e4d0e49a6299a4f907be6c
+    - b7120504b39990c4cbe2d35d4ca51b29
+    - 5e6cca083ec1d4341bd428d682060fc7
+    - c119ece3f8e98e24286c2a2306c72d29
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 6d60f20fde2812d43a14248192e3078d
+    - 4ef591d550d12b641b329cc9c48d8a6c
+    - ee5d16b7b3dcb904f92c8dd75e236cc7
+    - 5b4be8ba14d70084e9faf6609e2fa18f
+    - 0d045d2c0bd22094a9b9b2edff9db64f
+    - 5b530dd26ae7d1e4c856552289f51540
+    spriteTextureTimeStamps:
+    - 1491530978.62702
+    - 1493102265.15854
+    - 1493102465.70201
+    - 1493102465.86302
+    - 1493102465.13798
+    - 1493102465.12698
+    - 1493102465.15698
+    - 1493102465.18598
+    - 1493102427.09681
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 1491530621.6241
+    - 1492669914.62388
+    - 1492669472.75161
+    - 1492720765.50279
+    - 1492669454.52356
+    - 1492669796.1701
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: PersonalSpriteCollection
+    spriteCollectionGUID: 05f7ab99195499549b6bccba8c309014
+    spriteCollectionDataGUID: 1c29e34a3355b6147b9a88f9b779ec65
+    spriteNames:
+    - btn_light
+    - btn_close
+    - personal_right_bg
+    - btn_normal
+    - personal_icon
+    - personal_left_bg
+    - personalcenter_bg
+    - personalcenter_top
+    - font_feekback_light
+    - font_balance_light
+    - font_userinfo_light
+    - font_userinfo_normal
+    - font_point_normal
+    - font_setting_normal
+    - font_balance_normal
+    - font_feekback_normal
+    - font_setting_light
+    - font_point_light
+    - change_arrow
+    - balance_sure
+    - input_kuang
+    - right
+    - right_bg
+    spriteTextureGUIDs:
+    - 715bc100521f05948a421be3c5801caa
+    - e5b0a370b4749014e80cab0cbc9584c0
+    - 0ed2a9f6b8153144d943b789370e61aa
+    - 7b177409e1879a64c805806cb79a8154
+    - 770d78e90aeb4044cbe833187aeb0e24
+    - 9ae2e44e08c0f4849bb6b59236025169
+    - ef873a9f7c7ade84d8d26c3597081b67
+    - cd12b38136ae91b4fa6450b890cd7f23
+    - 5bde44229c0527c4b84fcba47da7cbad
+    - 437260b4e3c6a904383f3b7a50487cf5
+    - 83557df4c74d2ea41a8be7b1848b55f7
+    - 84a2e015126f3b741beb954bd728cf5d
+    - fecc7b46f3e513e4f9e4d2e6ecc64356
+    - 4cc9cf57183d0c245866cb69d0c7de8f
+    - 31b65b3850fbaa84dbaecb66822b43d5
+    - 97146c2b0ca01f243bb949cf0b9f3226
+    - 122da12e36606974b96e18da115c21bc
+    - 77464aae28c9a4442bc8bf0dc51c115e
+    - 9014f681cc516d740bb743c0c9649be0
+    - 883cd07e07f17d047949d35173e30a1e
+    - eda537d3255d9b24a8e07c229ae0fffd
+    - cde0616b3f6e42442a61aa5f349c2729
+    - a617937d92070f7479d4f2aea0a135be
+    spriteTextureTimeStamps:
+    - 1491528125.93419
+    - 1491454402.99929
+    - 1491610195.67406
+    - 1491528109.16812
+    - 1491454425.01439
+    - 1491610308.14417
+    - 1491610228.57148
+    - 1491454509.31452
+    - 1491528140.84724
+    - 1491528307.02624
+    - 1491528347.23848
+    - 1491528161.23439
+    - 1491528156.03135
+    - 1491528149.0823
+    - 1491528169.55542
+    - 1491528272.28216
+    - 1491528232.49192
+    - 1491528392.00069
+    - 1491455426.79118
+    - 1491455466.18036
+    - 1491455446.63233
+    - 1491455028.82985
+    - 1491455001.85382
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: IconSpriteCollection
+    spriteCollectionGUID: a08293ea581cb474e99ca3974104446b
+    spriteCollectionDataGUID: 251009f26cf641046829b2c185efad32
+    spriteNames:
+    - main_icon
+    spriteTextureGUIDs:
+    - 89815f94ef8ffe54780ff3517b74456c
+    spriteTextureTimeStamps:
+    - 1491699391.46847
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: BetSpriteCollection
+    spriteCollectionGUID: df2820d8c78ba5e44a7c7717327fac51
+    spriteCollectionDataGUID: 4af7b2b5b575fb8448558405af05f09c
+    spriteNames:
+    - draw
+    - area2.3
+    - area3-4
+    - area1.2
+    - area1-3
+    - area1.4
+    - area3-2
+    - area2
+    - area3
+    - area3.4
+    - area2-1
+    - area1
+    - area3-1
+    - area1-2
+    - area4
+    - area1-4
+    - area4-3
+    - area2-3
+    - area4-1
+    - area2-4
+    - area4-2
+    - "1\uFF1A1.9"
+    - double
+    - single
+    spriteTextureGUIDs:
+    - 5a206e22c220f5a4482b0d2cf388021d
+    - 04c44722956313d4695d02f67a0021eb
+    - c95cd65412d440345875c88c4c3e45b4
+    - daa76566719bc484ca74cb56c0ed956b
+    - d714b4a697d79164d82b9fac30ca40ee
+    - 19d6a0470592ef54dbef91185c58657f
+    - 80dcf9a9ca52f78499f207e33ccf9464
+    - bed092b919724fb4ebafc692b8d62513
+    - a92fd5d929f5a7c46906573ecb4d2795
+    - 368b146abd20a464d85b09d6b1971596
+    - 2640eeda525ba7e439c583c465039bfe
+    - c4f1698b6c8d32546ae7d5aafdd10eda
+    - 74dc8c4e7156a9147915e9e65040aa62
+    - 5408cb9ecdc36214d80090db86697f6a
+    - 3295d64facb96f04c9d48d59d18f1470
+    - 9985d48f45bfbc74985acd17319341ae
+    - a00edc42dc2b9ad4fbe4313f423ab749
+    - aaeb9e42cc37b3240bb043e6f48572d2
+    - ace4dde8f19aaeb4a9b94faa52431337
+    - ee36c299e3430534e8fb5b47fb0bfd43
+    - f7c967c9bb5f2e94783a294c7b784157
+    - 7f497f9b3fad2be4f8923d0e039c2c42
+    - 7622b77b40c27e747a8fb4649cb166b8
+    - 8b5768481bcad6a44948527efb49a221
+    spriteTextureTimeStamps:
+    - 1493100401.79697
+    - 1493101790.69341
+    - 1493101034.75717
+    - 1493101739.8385
+    - 1493104379.43818
+    - 1493101572.92695
+    - 1493101080.7138
+    - 1493100672.35444
+    - 1493100503.58779
+    - 1493101918.81273
+    - 1493101221.38184
+    - 1493100691.40553
+    - 1493100985.09333
+    - 1493104326.58142
+    - 1493100791.49926
+    - 1493104424.52613
+    - 1493104565.97434
+    - 1493101154.56502
+    - 1493104492.8094
+    - 1493101190.8301
+    - 1493104531.0101
+    - 1493080440.76752
+    - 1493100920.34362
+    - 1493100857.42803
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3

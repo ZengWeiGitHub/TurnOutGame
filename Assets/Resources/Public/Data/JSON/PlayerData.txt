@@ -1,0 +1,18 @@
+{
+    "PlayerState": {
+        "IsNewPlayer": true,
+        "Item": {
+            "Score": 0,
+            "Coin": 0,
+            "Jewel": 0,
+            "ScoreMultiple": 1
+        }
+    },
+    "Setting": {
+        "SoundOn": true,
+        "MusicOn": true,
+        "SoundVolume": 1,
+        "MusicVolume": 1
+    }
+    
+}
